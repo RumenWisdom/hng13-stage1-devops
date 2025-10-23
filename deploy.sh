@@ -114,9 +114,3 @@ EOF
 
 echo "Deployment Validation Complete."
 echo "Check your app at: http://$SERVER_IP"
-
-git init
-git add deploy.sh README.md
-git commit -m "Stage 1 DevOps deployment script"
-git remote add origin https://github.com/<username>/<repo>.git
-git push -u origin main
